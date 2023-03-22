@@ -20,7 +20,7 @@ const Home = (props) => {
         <div className="home-hero section-container">
           <div className="home-max-width max-content-container">
             <div className="home-heading-container">
-              <h1 className="home-text heading1">
+              <h1 className="home-text Heading1">
                 <span>We are a creative agency based</span>
                 <br></br>
                 <span>in Massachusetts</span>
@@ -87,7 +87,7 @@ const Home = (props) => {
             <div className="home-heading-container1">
               <div className="home-text-container">
                 <span className="home-text07">our services</span>
-                <h2 className="heading2">
+                <h2 className="Heading2">
                   <span>
                     We provide a wide range of
                     <span
@@ -130,7 +130,7 @@ const Home = (props) => {
           <div className="home-max-width2 max-content-container">
             <div className="home-text-container1">
               <span className="home-text12">our work</span>
-              <h2 className="home-text13 heading2">
+              <h2 className="home-text13 Heading2">
                 <span>Explore our portfolio</span>
               </h2>
               <span className="home-text15">
@@ -198,7 +198,7 @@ const Home = (props) => {
           <div className="home-max-width3 max-content-container">
             <div className="home-text-container2">
               <span className="home-text25">about us</span>
-              <h2 className="home-text26 heading2">
+              <h2 className="home-text26 Heading2">
                 <span>
                   We build brands with
                   <span
@@ -275,7 +275,7 @@ const Home = (props) => {
         <div className="home-process section-container">
           <div className="home-max-width4 max-content-container">
             <span className="home-text37">Our process</span>
-            <h2 className="home-text38 heading2">
+            <h2 className="home-text38 Heading2">
               <span>
                 We use a simple three step process.
                 <span
@@ -339,7 +339,7 @@ const Home = (props) => {
         <div className="section-container">
           <div className="home-max-width5 max-content-container">
             <span className="home-text51">from blog</span>
-            <h2 className="home-text52 heading2">
+            <h2 className="home-text52 Heading2">
               <span>Our latest articles and resources</span>
             </h2>
             <span className="home-text54">
@@ -380,7 +380,7 @@ const Home = (props) => {
         <div className="home-banner section-container">
           <div className="home-max-width6 max-content-container">
             <span className="home-text58">what are you waiting?</span>
-            <h2 className="home-text59 heading2">
+            <h2 className="home-text59 Heading2">
               <span>Let’s collaborate!</span>
             </h2>
             <span className="home-text61">

@@ -14,7 +14,7 @@ const EventCard = (props) => {
       />
       <div className="event-card-vertical-line"></div>
       <div className="event-card-container">
-        <span className="event-card-title">{props.title}</span>
+        <span className="event-card-title">{props.new_prop}</span>
         <span className="event-card-text">{props.text}</span>
       </div>
     </div>
@@ -22,7 +22,7 @@ const EventCard = (props) => {
 }
 
 EventCard.defaultProps = {
-  title: 'Inbound Marketing Secrets',
+  new_prop: 'Inbound Marketing Secrets',
   image_alt: 'image',
   text: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
   image_src:
@@ -30,7 +30,7 @@ EventCard.defaultProps = {
 }
 
 EventCard.propTypes = {
-  title: PropTypes.string,
+  new_prop: PropTypes.string,
   image_alt: PropTypes.string,
   text: PropTypes.string,
   image_src: PropTypes.string,

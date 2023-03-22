@@ -11,7 +11,7 @@ const Slide = (props) => {
       className={`slide-slide slide ${props.rootClassName} `}
     >
       <div className="slide-max-wdith max-content-container">
-        <h1 className="slide-text heading2">{props.heading}</h1>
+        <h1 className="slide-text Heading2">{props.heading}</h1>
       </div>
     </div>
   )
