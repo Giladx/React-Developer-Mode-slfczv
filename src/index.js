@@ -1,17 +1,22 @@
-import { AppStateProvider } from './store' 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
-import './teleporthq/style.css'
-import Home from './teleporthq/pages/home'
+import './style.css'
+import Blog from './views/blog'
+import Home from './views/home'
+import Porfolio from './views/porfolio'
+import About from './views/about'
 
 const App = () => {
   return (
     <Router>
-      <AppStateProvider>
-        <Route exact component={Home} path="/" />
-      </AppStateProvider>
+      <div>
+        <Route component={Blog} exact path="/blog" />
+        <Route component={Home} exact path="/" />
+        <Route component={Porfolio} exact path="/porfolio" />
+        <Route component={About} exact path="/about" />
+      </div>
     </Router>
   )
 }
